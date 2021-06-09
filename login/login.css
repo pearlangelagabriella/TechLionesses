@@ -6,7 +6,7 @@
 	display: flex;
 }
 .company__info{
-	background-color: #0bfd40;
+	background-color: #1dc441;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
 	display: flex;
@@ -14,10 +14,11 @@
 	justify-content: center;
 	color: #fff;
 }
-.fa-android{
-	font-size:3em;
+.info{
+	font-size:3em; 
+	text-align: center;
 }
-/* @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
 	.main-content{width: 90%;}
 	.company__info{
 		display: none;
@@ -29,9 +30,17 @@
 }
 @media screen and (min-width: 642px) and (max-width:800px){
 	.main-content{width: 70%;}
-} */
+}
+.logo {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 200px;
+	float: right;
+}
 .row > h2{
-	color:#0bfd40;
+	color:#1dc441;
+	text-align: center;
 }
 .login_form{
 	background-color: #fff;
@@ -63,14 +72,14 @@ form{
 	transition: all .5s ease;
 	width: 70%;
 	border-radius: 30px;
-	color:#0bfd40;
+	color:#1dc441;
 	font-weight: 600;
 	background-color: #fff;
-	border: 1px solid #0bfd40;
+	border: 1px solid #1dc441;
 	margin-top: 1.5em;
 	margin-bottom: 1em;
 }
 .btn:hover, .btn:focus{
-	background-color: #0bfd40;
+	background-color: #1dc441;
 	color:#fff;
 }
