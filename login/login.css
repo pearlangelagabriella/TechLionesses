@@ -40,7 +40,7 @@
 }
 .row > h2{
 	color:#1dc441;
-	text-align: center;
+	/* text-align: center; */
 }
 .login_form{
 	background-color: #fff;
